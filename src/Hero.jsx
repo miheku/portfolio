@@ -6,7 +6,7 @@ export default function Hero(){
         <>
         <div className='hero'>
             
-<video src="/earth.mp4" className='video' autoPlay loop muted ></video>
+<video src={vid} className='video' autoPlay loop muted ></video>
 
 <div className='content'>
 <h1 className="name">
