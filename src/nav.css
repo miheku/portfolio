@@ -1,0 +1,58 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+span{
+    cursor: pointer;
+    font-weight: bold;
+}
+span {
+    transition: filter 0.3s, color 0.3s;
+    filter: brightness(1);
+}
+span:hover {
+    filter: brightness(1.5);
+    color: #fffbe7;
+}
+img{
+    width: 50px;
+    transition: filter 0.3s, box-shadow 0.4s;
+}
+
+.react {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+a{
+    text-decoration: none;
+    color: white;
+}

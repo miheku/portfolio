@@ -1,0 +1,20 @@
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+
+.more{
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.more:hover{
+    background:linear-gradient(120deg, rgb(89, 64, 179), rgb(88, 236, 88), rgb(173, 71, 194))
+}
+
+#project{
+    text-decoration: overline;
+}
