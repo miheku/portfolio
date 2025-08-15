@@ -19,6 +19,8 @@ import js from '../public/js.png'
 import so from '../public/stem.png'
 import tk from '../public/tk.png'
 import py from '../public/python.png'
+import meme from '../public/meme.png'
+import ttt from '../public/ttt.png'
 function App() {
   const [project, setProject] = useState([{
     name:"calculator",
@@ -50,6 +52,16 @@ function App() {
     link:"https://miheku.github.io/rockpaperscissors/",
     info:"A classic game of rock paper scissors",
     background: rps
+  },{
+    name:"Tic-Tac-Toe",
+    link:"https://miheku.github.io/tictactoe",
+    info:"A classic 3x3 2 player game",
+    background:ttt
+  },{
+    name:"Meme generator",
+    link:"https://miheku.github.io/meme-generator",
+    info:"An app where you can generate memes and save it",
+    background:meme
   }])
   
   const[lang,setLang] = useState([{

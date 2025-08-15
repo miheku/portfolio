@@ -10,9 +10,9 @@ export default function Project({project}){
         {project.map(
             (data, index) => <div className='card' style={{
                 backgroundImage: `url(${data.background})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center"
-                
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+                backgroundRepeat:"no-repeat"
               }}>
               <div className='bg'>
         <a href={data.link} target='_blank'>
