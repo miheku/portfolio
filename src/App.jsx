@@ -103,13 +103,13 @@ function App() {
 
   return (
     <>
-    <div style={{marginLeft:"300px", marginRight:"300px"}}>
+    
 <Nav />
       <Hero />        
       <Project project = {project} />
       <Skills lang = {lang}/>
       <About />
-    </div>
+    
     <footer className='footer'>
         <p>Made by Min Hein Kyaw in 2025</p>
       </footer>
