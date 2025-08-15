@@ -21,6 +21,7 @@ import tk from '../public/tk.png'
 import py from '../public/python.png'
 import meme from '../public/meme.png'
 import ttt from '../public/ttt.png'
+import todo from '../public/todo.png'
 function App() {
   const [project, setProject] = useState([{
     name:"calculator",
@@ -62,6 +63,12 @@ function App() {
     link:"https://miheku.github.io/meme-generator",
     info:"An app where you can generate memes and save it",
     background:meme
+  },{
+    name:"To-Do app",
+    link:"https://miheku.github.io/to-do-app",
+    info:"An app that track your activities",
+    background:todo
+
   }])
   
   const[lang,setLang] = useState([{
