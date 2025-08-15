@@ -22,6 +22,7 @@ import py from '../public/python.png'
 import meme from '../public/meme.png'
 import ttt from '../public/ttt.png'
 import todo from '../public/todo.png'
+import dict from '../public/dictionary.png'
 function App() {
   const [project, setProject] = useState([{
     name:"calculator",
@@ -69,6 +70,11 @@ function App() {
     info:"An app that track your activities",
     background:todo
 
+  },{
+    name:"Dictionary",
+    link:"https://miheku.github.io/dictionary",
+    info:"A dictionary app where you can find meanings and examples of the words",
+    background:dict
   }])
   
   const[lang,setLang] = useState([{
