@@ -19,6 +19,8 @@
     align-items: center;
     gap: 20px;
     margin-block: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about-me-container h1{

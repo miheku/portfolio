@@ -5,26 +5,27 @@
     align-items: center;
     color: white;
     padding-block: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .main{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 
 .links{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 
-span{
+.dim{
     cursor: pointer;
     font-weight: bold;
 }
-span {
+.dim {
     transition: filter 0.3s, color 0.3s;
-    filter: brightness(1);
+    filter: brightness(0.5);
 }
 span:hover {
     filter: brightness(1.5);

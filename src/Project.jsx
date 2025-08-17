@@ -4,7 +4,8 @@ export default function Project({project}){
     
     return(
         <>
-        <h1 id='project'>Projects</h1>
+        <div style={{width:"90%",margin:"0 auto"}}>
+<h1 id='project'>Projects</h1>
         <p style={{fontSize:"25px"}}>Here's some projects that I've made using html, css, js and react</p>
             <div className='container'>            
         {project.map(
@@ -28,6 +29,8 @@ export default function Project({project}){
           )}
           </div>
                 <a href="https://github.com/miheku" target='_blank'><h1 className='more'>see more</h1></a>
+        </div>
+        
           
         </>
     )

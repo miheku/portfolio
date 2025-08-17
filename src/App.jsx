@@ -24,6 +24,7 @@ import ttt from '../public/ttt.png'
 import todo from '../public/todo.png'
 import dict from '../public/dictionary.png'
 import weather from '../public/weather2.png'
+import ig from '../public/igcse.png'
 function App() {
   const [project, setProject] = useState([{
     name:"calculator",
@@ -118,6 +119,10 @@ function App() {
     name: "Python",
     icon:py,
     desc:"used for IGCSE exams and coding olympiads"
+  },{
+    name:"IGCSE",
+    icon: ig,
+    desc:"prepared IGCSE ICT and CS exams by using various office tools, web developement, programming, computer systems, logics and alogorithms"
   }])
 
 
