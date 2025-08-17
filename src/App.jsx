@@ -23,6 +23,7 @@ import meme from '../public/meme.png'
 import ttt from '../public/ttt.png'
 import todo from '../public/todo.png'
 import dict from '../public/dictionary.png'
+import weather from '../public/weather2.png'
 function App() {
   const [project, setProject] = useState([{
     name:"calculator",
@@ -75,6 +76,12 @@ function App() {
     link:"https://miheku.github.io/dictionary",
     info:"A dictionary app where you can find meanings and examples of the words",
     background:dict
+  },{
+    name:"Weather App",
+    link:"https://miheku.github.io/weather-app",
+    info:"An app shows the tempearature and condition of the cities",
+    background:weather
+
   }])
   
   const[lang,setLang] = useState([{
