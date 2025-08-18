@@ -25,23 +25,12 @@ import todo from '../public/todo.png'
 import dict from '../public/dictionary.png'
 import weather from '../public/weather2.png'
 import ig from '../public/igcse.png'
+import tenzi from '../public/tenzi.jpg'
 function App() {
+
+  
+
   const [project, setProject] = useState([{
-    name:"calculator",
-    link:"https://miheku.github.io/calculator",
-    info:"a project about calculator where you can do the basic maths",
-    background: calc
-  },{
-    name:"hangman",
-    link: "https://miheku.github.io/hangman/",
-    info:"a game where you have to guess the correct word to win",
-    background:hm
-  },{
-    name: "colorbox",
-    link:"https://miheku.github.io/colorbox/",
-    info:"an app that you can click the icons to change the colors",
-    background: cb
-  },{
     name:"Quiz App",
     link:"https://miheku.github.io/quiz",
     info:"An app that gives you trivial quiz of different category and scores at the end",
@@ -131,7 +120,7 @@ function App() {
     
 <Nav />
       <Hero />        
-      <Project project = {project} />
+      <Project project = {project}/>
       <Skills lang = {lang}/>
       <About />
     
