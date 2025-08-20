@@ -31,6 +31,11 @@ function App() {
   
 
   const [project, setProject] = useState([{
+          name:"Calculator",
+          link:"https://miheku.github.io/calculator",
+          info:"a project about calculator where you can do the basic maths",
+          background: calc
+        },{
     name:"Quiz App",
     link:"https://miheku.github.io/quiz",
     info:"An app that gives you trivial quiz of different category and scores at the end",

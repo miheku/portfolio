@@ -4,18 +4,19 @@ import tenzi from '../public/tenzi.jpg'
 import calc from '../public/calc.png'
 import cb from '../public/color.png'
 import hm from '../public/hm.avif'
+import mg from '../public/mg.png'
 export default function Project({project}){
     const[top , setMain] = useState([{
+      name:"Memory-Game",
+      link:"https://miheku.github.io/memory-game",
+      info:"flip the cards to get the same two items",
+      background:mg
+    },{
         name:"Tenzi",
         link:"https://miheku.github.io/tenzi",
         info:"a dice game to get all the same 6 numbers",
         background:tenzi
     
-      },{
-        name:"Calculator",
-        link:"https://miheku.github.io/calculator",
-        info:"a project about calculator where you can do the basic maths",
-        background: calc
       },{
         name:"Hangman",
         link: "https://miheku.github.io/hangman/",
@@ -34,7 +35,7 @@ export default function Project({project}){
     }
     return(
         <>
-        <div style={{width:"90%",margin:"0 auto"}}>
+        <div style={{width:"80%",margin:"0 auto"}}>
 <h1 id='project'>Projects</h1>
         <p style={{fontSize:"25px"}}>Here's some projects that I've made using html, css, js and react</p>
             <div className='container'>
