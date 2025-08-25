@@ -32,48 +32,48 @@ function App() {
 
   const [project, setProject] = useState([{
           name:"Calculator",
-          link:"https://miheku.github.io/calculator",
+          link:"https://min-hein-kyaw.github.io/calculator",
           info:"a project about calculator where you can do the basic maths",
           background: calc
         },{
     name:"Quiz App",
-    link:"https://miheku.github.io/quiz",
+    link:"https://min-hein-kyaw.github.io/quiz",
     info:"An app that gives you trivial quiz of different category and scores at the end",
     background:qm
   },{
     name:"Password Generator",
-    link:"https://miheku.github.io/random-password-generator/",
+    link:"https://min-hein-kyaw.github.io/random-password-generator/",
     info:"An app that generate the random password based on your preference",
     background: pw
   },{
     name:"Rock Paper Scissors",
-    link:"https://miheku.github.io/rockpaperscissors/",
+    link:"https://min-hein-kyaw.github.io/rockpaperscissors/",
     info:"A classic game of rock paper scissors",
     background: rps
   },{
     name:"Tic-Tac-Toe",
-    link:"https://miheku.github.io/tictactoe",
+    link:"https://min-hein-kyaw.github.io/tictactoe",
     info:"A classic 3x3 2 player game",
     background:ttt
   },{
     name:"Meme generator",
-    link:"https://miheku.github.io/meme-generator",
+    link:"https://min-hein-kyaw.github.io/meme-generator",
     info:"An app where you can generate memes and save it",
     background:meme
   },{
     name:"To-Do app",
-    link:"https://miheku.github.io/to-do-app",
+    link:"https://min-hein-kyaw.github.io/to-do-app",
     info:"An app that track your activities",
     background:todo
 
   },{
     name:"Dictionary",
-    link:"https://miheku.github.io/dictionary",
+    link:"https://min-hein-kyaw.github.io/dictionary",
     info:"A dictionary app where you can find meanings and examples of the words",
     background:dict
   },{
     name:"Weather App",
-    link:"https://miheku.github.io/weather-app",
+    link:"https://min-hein-kyaw.github.io/weather-app",
     info:"An app shows the tempearature and condition of the cities",
     background:weather
 
