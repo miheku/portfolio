@@ -8,7 +8,7 @@ import mg from '../public/mg.png'
 export default function Project({project}){
     const[top , setMain] = useState([{
       name:"Memory-Game",
-      link:"https://mih-hein-kyaw.github.io/memory-game",
+      link:"https://min-hein-kyaw.github.io/memory-game",
       info:"flip the cards to get the same two items",
       background:mg
     },{
