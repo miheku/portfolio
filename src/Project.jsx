@@ -8,23 +8,23 @@ import mg from '../public/mg.png'
 export default function Project({project}){
     const[top , setMain] = useState([{
       name:"Memory-Game",
-      link:"https://miheku.github.io/memory-game",
+      link:"https://mih-hein-kyaw.github.io/memory-game",
       info:"flip the cards to get the same two items",
       background:mg
     },{
         name:"Tenzi",
-        link:"https://miheku.github.io/tenzi",
+        link:"https://min-hein-kyaw.github.io/tenzi",
         info:"a dice game to get all the same 6 numbers",
         background:tenzi
     
       },{
         name:"Hangman",
-        link: "https://miheku.github.io/hangman/",
+        link: "https://min-hein-kyaw.github.io/hangman/",
         info:"a game where you have to guess the correct word to win",
         background:hm
       },{
         name: "Colorbox",
-        link:"https://miheku.github.io/colorbox/",
+        link:"https://min-hein-kyaw.github.io/colorbox/",
         info:"an app that you can click the icons to change the colors",
         background: cb
       }])
